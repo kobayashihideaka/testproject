@@ -11,7 +11,7 @@ class HelloController extends Controller
        {
         //return "hello, world";
         //変更箇所
-            $message = "Hello Laravel 2";
+            $message = "Hello Laravel 3";
             return view('hello', ['message' => $message]);
         }
        

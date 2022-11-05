@@ -22,6 +22,6 @@ Route::get('/', function () {
 //    return 'hello';
 //});
 
-//コントローラー呼び出し
+//start php artisan serve コントローラー呼び出し http://127.0.0.1:8000/hello 
 Route::get('/hello', 'App\Http\Controllers\HelloController@index');
 
